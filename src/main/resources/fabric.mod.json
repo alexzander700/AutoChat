@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "autochat",
+  "version": "${version}",
+  "name": "AutoChat",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/ajhoc/autoChat"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/autochat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.alexzander700.autochat.client.AutoChatClient"
+    ],
+    "main": [
+      "com.alexzander700.autochat.AutoChat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
